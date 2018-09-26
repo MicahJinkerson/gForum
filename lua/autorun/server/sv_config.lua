@@ -1,20 +1,20 @@
 --[[
-		It is very important you read threw everything below before chaning anything
+		It is very important you read threw everything below before changing anything
 
-		Additional if you run into PROBLEMS you can visit the official gForum thread on facepunch.
+		Additionaly if you run into PROBLEMS you can visit the official gForum thread on facepunch.
 		http://facepunch.com/showthread.php?t=1189744
 
 		You can suggest features and additional forum support via the link above.
 --]]
 
 
-// Forum is the type of board software your site is running. Currently supports 'smf', 'mybb', 'ipb', and 'xf'
+// Forum is the type of board software your site is running. Currently supports 'smf', 'mybb', 'ipb', and 'xf'. SMF is Simple Machines Forum, MyBB is MyBulletinBoard, and xf is XenForo
 Forum = "mybb"
 
 // Prefix is the alais used to define the begining of the forum tables. Examples are smf* or garry01_smf*.
 Prefix = "mybb"
 
-// URL is the address to your forum site index page. ** ** ** Do not include any file and file extentsion instead use the folder of the index page. ** ** **
+// URL is the address of your forum site index page. ** ** ** Do not include any file or file extentsion in the url. Instead, use the folder of the index page. ** ** **
 URL = "http://127.0.0.1:8080/mybb/"
 
 // Group is the default group you wish clients to be placed into. This must be a number. SMF(4), MyBB(2), IPB(3), Xen(2)
@@ -39,3 +39,4 @@ Reset = false
 Register = true
 
 print("[gForum] Server -> Variables loaded.")
+print("[gForum] Server -> Config Successfully Loaded")
